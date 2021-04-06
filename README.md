@@ -52,8 +52,8 @@
 
 ### resistance:
 
-![Resistance](public/assets/workout_resistance.png 'Add Resistance')
+![Resistance](public/images/workout_resistance.png 'Add Resistance')
 
 ### Cardio:
 
-![Cardio](public/assets/workout_cardio.png 'Cardio')
+![Cardio](public/images/workout_cardio.png 'Cardio')
