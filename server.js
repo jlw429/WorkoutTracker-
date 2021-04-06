@@ -13,7 +13,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//Sets port to a value
+//Sets port
 const PORT = process.env.PORT || 3000;
 
 //Connects to Mongo Atlas DB
@@ -37,12 +37,12 @@ mongoose
   //If connection to DB returns an error, logs error to console
   .catch((err) => console.log(err));
 
-//Sets up static folder
+//  static folder
 app.use(
   express.static(path.join(__dirname, 'public'), { extensions: ['html'] })
 );
 
-//API ROUTES
+// ROUTES
 
 app.get('/api/workouts', (req, res) => {
   Workout.find()
