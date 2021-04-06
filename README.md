@@ -48,7 +48,7 @@
 
 ### Add Exercise:
 
-![Add](public/assets/workout_add.png 'Add Exercise')
+![Add](public/images/workout_add.png 'Add Exercise')
 
 ### resistance:
 
